@@ -1,0 +1,12 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Data files (Optional: keep these local if they are very large)
+*.csv
+*.json

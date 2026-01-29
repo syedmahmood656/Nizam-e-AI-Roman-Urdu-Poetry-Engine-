@@ -35,7 +35,7 @@ def load_models():
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("collected_dataset.csv")
+    df = pd.read_csv("dataset.csv")
     return df
 
 model, tfidf, sbert_clf, le, embeddings, sbert_model = load_models()
